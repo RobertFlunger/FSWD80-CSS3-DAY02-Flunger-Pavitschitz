@@ -1,3 +1,9 @@
+body{
+	color:  #665544;
+	padding: 0px;
+	margin: 0;
+}
+
 .logo{
 	text-align: center;
 	color: #686868;
@@ -19,6 +25,7 @@ nav li {
 
 nav a {	
 	padding: 10px;
+	color:  #665544;
 }
 .feature {
 	clear: both;
@@ -57,14 +64,15 @@ nav a {
 	width: 100%;
 	overflow: hidden;
 	padding: 0;
+	margin-right: 0;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 15px
+	margin-bottom: 15px;
 }
 .column {
 	float: left;
 	background-color: #F1F1F1;
-	width: calc((100%-40px)/3);
+	width: calc((100%-30px)/3);
 	text-align: center;
 	}
 
