@@ -1,0 +1,192 @@
+body {
+	padding:  0;
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	background-color: #5286C1;
+}
+
+.container {
+	width: 875px;
+	margin-left: 130px;
+}
+
+nav {
+	background-color: #4371A3;
+	padding: 1px;
+	height: 32px;
+	margin-left: 0px;
+	
+
+
+	
+}
+
+nav a {
+	margin: 1px;
+	color: white;
+	padding-bottom: 20px;
+
+
+}
+
+
+.hero ul {
+	list-style-type: none;
+	text-align: justify;
+
+
+}
+
+.hero li {
+	display:  inline;
+	position: relative;
+	top: -10px;
+	text-decoration: none;
+	
+
+
+
+}
+
+.hero a{
+	padding: 10px;
+	text-decoration: none;
+	font-family: arial;
+	
+
+}
+.hero a:hover {
+	text-decoration: underline;
+	color: #ABADBD;
+}
+.hero a img {
+	
+	width: 180px;
+}
+
+div.hero li a {
+	margin: 0 20px 0 20px;
+	position: relative;
+	top: 10px;
+	
+}
+
+div.hero #orflogo{
+	position: relative;
+	right: -20px;
+}
+div.hero #weather{
+	position: relative;
+	right: -90px;
+}
+div.hero #wahl{
+	text-align: right;
+	position: relative;
+	right: -140px;
+}
+
+.maincont {
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin-right: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+/* AMAZING */
+.imgconthorizontal{
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin-right: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	margin-bottom: 0px;
+
+}
+.smallimg img{
+	width: 170px;
+	height: 135px;
+float: left;
+margin: 3px;
+
+}
+.bigimg img{
+	width: 340px;
+	height: 135px;
+	float: left;
+	margin: 3px;
+}
+#imgcontvertical img{
+	width:  170px;
+	height: 276px;
+	margin: 3px;
+
+}
+
+
+/* .column {
+	float: left;
+	background-color: #F1F1F1;
+	width: calc((100%-30px)/3);
+	text-align: center;
+	}
+
+.column:nth-child(2) {
+	margin: 0 15px;
+} */
+
+table {
+	
+	width: 100%;
+	padding: 0px;
+	margin: 7px 0 7px 0;
+}
+
+
+table tr th {
+	width: 20%;
+	text-transform: uppercase;
+	text-align: right;
+	color: #383333;
+	padding-right: 10px;
+	padding-bottom: 85px;
+	}
+
+table tr td {
+	width: 60%;
+	color: white;
+}
+
+footer {
+	background-color: #12375C;
+}
+
+footer ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+footer li a {
+	color: white;
+	padding: 10px 10px 40px 0;
+	text-decoration: none;
+	text-align: justify;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+footer li {
+	display: inline;
+}
+footer img{
+	padding-top: 10px;
+}
+footer a:hover {
+	text-decoration: underline;
+	color: #ABADBD;
+}
